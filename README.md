@@ -10,14 +10,15 @@ To replicate:
 => test hangs and fails with timeout.
 
 Comment out 
+
 ```javascript
 // test/routes/root.test.js
 
     // jest
     //   .useFakeTimers("modern")
     //   .setSystemTime(new Date("2020-02-08T20:10:21.520Z"));
+```
 
-´
 to make it work.
 
 See https://github.com/facebook/jest/issues/12056
