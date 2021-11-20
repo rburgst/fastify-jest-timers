@@ -19,3 +19,5 @@ Comment out
 
 ´
 to make it work.
+
+See https://github.com/facebook/jest/issues/12056
